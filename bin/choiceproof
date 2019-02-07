@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+// emacs mode -*-JavaScript-*-
+
+var fs = require('fs'),
+    getopt = require('node-getopt'),
+    preprocess = require('../src/preprocess'),
+    parser = require('../src/parser'),
+    unparse = require('../src/unparse')
+
+// parse command-line options
+var opt = getopt.create([
+  ['p' , 'preprocess' , 'show preprocessed file, do not parse'],
+  ['e' , 'echo'       , 'echo ChoiceScript output (useful for testing)'],
+  ['h' , 'help'       , 'display this help message']
+])              // create Getopt instance
+    .bindHelp()     // bind option 'help' to default action
+    .parseSystem() // parse command line
+
+if (!opt.argv.length) {
+  console.error ("Please specify a ChoiceScript file to parse")
+}
+
+opt.argv.forEach (function (filename) {
+  var file = fs.readFileSync(filename).toString()
+  var procfile = preprocess (file)
+  if (opt.options.preprocess)
+    console.log (procfile)
+  else {
+    var parsed = parser.parse (procfile)
+    if (opt.options.echo)
+      process.stdout.write (unparse (parsed))
+    else
+      console.log (JSON.stringify (parsed, null, 2))
+  }
+})
