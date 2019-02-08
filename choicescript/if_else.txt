@@ -1,0 +1,7 @@
+
+*if winsomeness > 15
+  You are a winner.
+  *finish
+*else
+  Bad luck, loser.
+
