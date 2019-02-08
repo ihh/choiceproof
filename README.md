@@ -3,7 +3,7 @@ Parser for ChoiceScript[tm]
 
 ## Overview
 
-This (example file [animal.txt](choicescript/animal.txt) tm ChoiceScript)
+This (example file [animal.txt](choicescript/animal.txt) from ChoiceScript repo)
 ~~~~
 *comment Copyright 2010 by Dan Fabulich.
 *comment 
