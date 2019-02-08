@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Build Status](https://travis-ci.org/ihh/choiceproof.svg?branch=master)](https://travis-ci.org/ihh/choiceproof)
+[![Coverage Status](https://coveralls.io/repos/github/ihh/choiceproof/badge.svg?branch=master)](https://coveralls.io/github/ihh/choiceproof?branch=master)
+
 # choiceproof
 Parser for ChoiceScript[tm]
 
