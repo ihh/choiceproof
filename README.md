@@ -35,7 +35,9 @@ What kind of animal will you be?
     *finish
 ~~~~
 
-Parses to this (with `bin/choiceproof choicescript/animal.txt`)
+Parse with `bin/choiceproof choicescript/animal.txt`
+
+This should yield the following JSON:
 
 ~~~~
 {
