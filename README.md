@@ -12,7 +12,7 @@ Example file [animal.txt](choicescript/animal.txt) from ChoiceScript repo:
 ~~~~
 *comment Copyright 2010 by Dan Fabulich.
 *comment 
-*comment Please see original for licensing info.Dan Fabulich licenses this file to you under the
+*comment Dan Fabulich licenses this file to you under the
 *comment ChoiceScript License, Version 1.0 (the "License"); you may
 *comment not use this file except in compliance with the License. 
 *comment You may obtain a copy of the License at
