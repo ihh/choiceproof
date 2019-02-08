@@ -8,7 +8,7 @@ A [PegJS](https://pegjs.org/)-based parser for [ChoiceScript](https://www.choice
 
 ## Overview
 
-This (example file [animal.txt](choicescript/animal.txt) from ChoiceScript repo)
+Example file [animal.txt](choicescript/animal.txt) from ChoiceScript repo:
 ~~~~
 *comment Copyright 2010 by Dan Fabulich.
 *comment 
@@ -40,9 +40,9 @@ What kind of animal will you be?
     *finish
 ~~~~
 
-Parse with `bin/choiceproof choicescript/animal.txt`
+Parse to JSON with `bin/choiceproof choicescript/animal.txt`
 
-This should yield the following JSON:
+This should yield the following:
 
 ~~~~
 {
