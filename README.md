@@ -3,7 +3,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/ihh/choiceproof/badge.svg?branch=master)](https://coveralls.io/github/ihh/choiceproof?branch=master)
 
 # choiceproof
-Parser for ChoiceScript[tm]
+
+A [PegJS](https://pegjs.org/)-based parser for [ChoiceScript](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/)[tm].
 
 ## Overview
 
